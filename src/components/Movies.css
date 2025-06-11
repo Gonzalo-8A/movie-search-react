@@ -1,0 +1,113 @@
+
+
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 0;
+}
+
+.movie{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie h3 {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 1rem auto;
+  line-height: 1.2em;
+  height: 2.4em;
+}
+
+.movie p {
+
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.movie img {
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.poster-fallback {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #2b3848d3;
+  backdrop-filter: blur(8px);
+}
+
+.flip-container {
+  perspective: 1000px;
+  width: 100%;
+  height: 340px;
+  cursor: pointer;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.front {
+  z-index: 2;
+
+}
+
+.back {
+  background: #111;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back p{
+  text-align: center;
+}
+
+
