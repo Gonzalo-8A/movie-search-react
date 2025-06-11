@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Gonzalo-8A.github.io/movie-search-react",
+  "homepage": "https://gonzalo-8a.github.io/movie-search-react/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "just-debounce-it": "3.2.0",
