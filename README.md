@@ -1,3 +1,5 @@
+Aplicación creada a través del curso de React de @midudev: https://cursoreact.dev/
+
 Crea una aplicación para buscar películas
 
 API a usar: - https://www.omdbapi.com/ Consigue la API Key en la propia página web registrando tu email.
