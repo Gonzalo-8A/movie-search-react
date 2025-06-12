@@ -18,6 +18,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 2rem;
 }
 
 .form{
@@ -29,6 +30,5 @@ header {
 
 .form input{
   width: 100%;
-  max-width: minmax(150px, 300px)
 }
 

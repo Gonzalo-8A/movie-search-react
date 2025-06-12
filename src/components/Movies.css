@@ -60,7 +60,7 @@
 
 .flip-container {
   perspective: 1000px;
-  width: 100%;
+  width: 210px;
   height: 340px;
   cursor: pointer;
 }
