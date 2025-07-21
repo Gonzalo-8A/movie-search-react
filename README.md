@@ -1,7 +1,9 @@
 🎬 Movie Search React
 Una aplicación para encontrar películas al instante, creada durante el curso de React de @midudev.
 
-[![Deploy](https://img.shields.io/badge/Ver%20online-AQUÍ-61dafb?style=for-the-badge&logo=vercel&logoColor=white)](https://gonzalo-8a.github.io/movie-search-react/)
+<a href="https://gonzalo-8a.github.io/movie-search-react/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Ver%20online-AQUÍ-61dafb?style=for-the-badge&logo=vercel&logoColor=white" alt="Deploy">
+</a>
 &nbsp;
 ![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)
 &nbsp;
