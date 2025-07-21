@@ -1,25 +1,80 @@
-Aplicación creada a través del curso de React de @midudev: https://cursoreact.dev/
+🎬 Movie Search React
+Una aplicación para encontrar películas al instante, creada durante el curso de React de @midudev.
 
-Crea una aplicación para buscar películas
+[![Deploy](https://img.shields.io/badge/Ver%20online-AQUÍ-61dafb?style=for-the-badge&logo=vercel&logoColor=white)](https://gonzalo-8a.github.io/empty-design-portfolio/)
+![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)
+![Framer Motion](https://img.shields.io/badge/Framer--Motion-Animaciones-black?style=for-the-badge&logo=framer)
+![Estado](https://img.shields.io/badge/estado-en%20desarrollo-orange?style=for-the-badge)
 
-API a usar: - https://www.omdbapi.com/ Consigue la API Key en la propia página web registrando tu email.
+✨ Descripción
+Movie Search React es una aplicación web responsive que permite buscar películas por nombre, accediendo a los datos de la OMDb API. Desarrollada con React, incorpora prácticas modernas como renderizado eficiente, debounce, manejo de estado y una interfaz fluida y adaptable.
 
-Requerimientos:
+🛠️ Tecnologías usadas
+⚛️ React — Librería principal para construir la UI.
 
-✅ Necesita mostrar un input para buscar la película y un botón para buscar.
+⚡ Vite — Bundler ultrarrápido con recarga en caliente.
 
-✅ Lista las películas y muestra el título, año y poster.
+💅 CSS — Estilos responsive personalizados.
 
-✅ Que el formulario funcione
+🔍 OMDb API — Base de datos de películas (gratuita con clave de acceso).
 
-✅ Haz que las películas se muestren en un grid responsive.
+⏳ Debounce — Mejora del rendimiento en búsquedas.
 
-✅ Hacer el fetching de datos a la API
+🚀 GitHub Pages — Deploy estático gratuito.
 
-Primera iteración:
+🧩 Funcionalidades principales
+🔎 Input de búsqueda con botón de acción.
 
-✅ Evitar que se haga la misma búsqueda dos veces seguidas.
+🎞️ Listado de películas con título, año y póster.
 
-✅ Haz que la búsqueda se haga automáticamente al escribir.
+🧠 Prevención de búsquedas duplicadas consecutivas.
 
-✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
+⌨️ Búsqueda automática al escribir, sin necesidad de pulsar el botón.
+
+🛑 Optimización del número de peticiones mediante debounce.
+
+🧱 Grid responsive para mostrar los resultados de forma atractiva en cualquier dispositivo.
+
+🌀 Efecto hover en las tarjetas: las cards se giran para mostrar la sinopsis en el reverso, ofreciendo más información sin sobrecargar la interfaz.
+
+⚠️ Gestión de errores: muestra mensajes si no se encuentran resultados o si falla la petición.
+
+📦 Estructura modular y escalable de componentes.
+
+🧪 Preparado para testeo y futuras mejoras.
+
+🔧 Requisitos del proyecto (cumplidos ✅)
+Requisito	Estado
+Input de búsqueda y botón	✅
+Renderizado de resultados con título, año y póster	✅
+Funcionamiento del formulario	✅
+Grid responsive de resultados	✅
+Fetch a la API con clave OMDb	✅
+Evitar búsquedas repetidas consecutivas	✅
+Autocompletar búsqueda al escribir	✅
+Debounce para evitar múltiples peticiones	✅
+Hover para mostrar sinopsis en el reverso	✅
+
+📸 Vista previa
+(Puedes añadir capturas de pantalla aquí si lo deseas con Markdown):
+
+![Movie Search Preview](./public/preview.png)
+
+🔑 Cómo conseguir la API Key
+Ve a https://www.omdbapi.com/
+
+Introduce tu correo electrónico.
+
+Recibirás una clave que deberás usar en las peticiones.
+
+🚀 Deploy
+La aplicación está desplegada en GitHub Pages y accesible aquí:
+👉 movie-search-react
+
+🧠 Inspiración y créditos
+Proyecto desarrollado durante el curso de React de @midudev
+
+API pública de OMDb
+
+Añadido por @Gonzalo-8A:
+🌀 Efecto de hover en las tarjetas para mostrar sinopsis al girarlas.
