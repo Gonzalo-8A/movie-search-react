@@ -1,10 +1,11 @@
 🎬 Movie Search React
 Una aplicación para encontrar películas al instante, creada durante el curso de React de @midudev.
 
-[![Deploy](https://img.shields.io/badge/Ver%20online-AQUÍ-61dafb?style=for-the-badge&logo=vercel&logoColor=white)](https://gonzalo-8a.github.io/empty-design-portfolio/)
+[![Deploy](https://img.shields.io/badge/Ver%20online-AQUÍ-61dafb?style=for-the-badge&logo=vercel&logoColor=white)](https://gonzalo-8a.github.io/movie-search-react/)
+&nbsp;
 ![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)
-![Framer Motion](https://img.shields.io/badge/Framer--Motion-Animaciones-black?style=for-the-badge&logo=framer)
-![Estado](https://img.shields.io/badge/estado-en%20desarrollo-orange?style=for-the-badge)
+&nbsp;
+![Estado](https://img.shields.io/badge/estado-completo-green?style=for-the-badge)
 
 ✨ Descripción
 Movie Search React es una aplicación web responsive que permite buscar películas por nombre, accediendo a los datos de la OMDb API. Desarrollada con React, incorpora prácticas modernas como renderizado eficiente, debounce, manejo de estado y una interfaz fluida y adaptable.
@@ -55,10 +56,6 @@ Autocompletar búsqueda al escribir	✅
 Debounce para evitar múltiples peticiones	✅
 Hover para mostrar sinopsis en el reverso	✅
 
-📸 Vista previa
-(Puedes añadir capturas de pantalla aquí si lo deseas con Markdown):
-
-![Movie Search Preview](./public/preview.png)
 
 🔑 Cómo conseguir la API Key
 Ve a https://www.omdbapi.com/
